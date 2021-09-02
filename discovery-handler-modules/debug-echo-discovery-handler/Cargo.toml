@@ -1,6 +1,6 @@
 [package]
 name = "debug-echo-discovery-handler"
-version = "0.6.13"
+version = "0.6.14"
 authors = ["Kate Goldenring <kate.goldenring@microsoft.com>"]
 edition = "2018"
 
@@ -10,5 +10,5 @@ edition = "2018"
 akri-discovery-utils = { path = "../../discovery-utils" }
 akri-debug-echo = { path = "../../discovery-handlers/debug-echo" }
 env_logger = "0.9.0"
-log = "0.4"
-tokio = { version = "1.0.1" }
+log = "0.4.14"
+tokio = "1.11.0"
